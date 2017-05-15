@@ -286,7 +286,7 @@
 
     <distributionManagement>
         <repository>
-            <id>imick_qcdb_base</id>
+            <id>imicke_qcdb_base</id>
             <url>file://D:\repo</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
