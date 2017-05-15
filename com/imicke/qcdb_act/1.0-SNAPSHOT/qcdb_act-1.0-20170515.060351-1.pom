@@ -283,10 +283,12 @@
         </testResources>
     </build>
 
-    <repositories>
+    <distributionManagement>
         <repository>
-            <id>imicke-maven-repo</id>
-            <url>file:d:/repo</url>
+            <id>imick_qcdb_act</id>
+            <url>file://D:\repo</url>
+            <uniqueVersion>false</uniqueVersion>
         </repository>
-    </repositories>
+    </distributionManagement>
+
 </project>
