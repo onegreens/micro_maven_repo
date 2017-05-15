@@ -1,11 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.imicke</groupId>
-    <artifactId>qcdb_act</artifactId>
+    <artifactId>qcdb_base</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
     <name>Nexus aliyun</name>
+
     <url>http://maven.aliyun.com/nexus/content/groups/public</url>
 
     <properties>
@@ -25,7 +29,6 @@
         <maven.test.skip>true</maven.test.skip>
 
     </properties>
-
     <dependencies>
         <!-- 添加jstl依赖 -->
         <dependency>
@@ -245,12 +248,10 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
         </dependency>
-
-
     </dependencies>
 
     <build>
-        <finalName>qcdb_act</finalName>
+        <finalName>qcdb_base</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -285,10 +286,9 @@
 
     <distributionManagement>
         <repository>
-            <id>imick_qcdb_act</id>
+            <id>imick_qcdb_base</id>
             <url>file://D:\repo</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
     </distributionManagement>
-
 </project>
